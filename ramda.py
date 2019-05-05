@@ -5,8 +5,8 @@ import re
 from workflow import Workflow, ICON_WEB, web
 from workflow import (MATCH_ALL, MATCH_ALLCHARS, MATCH_ATOM, MATCH_CAPITALS, MATCH_INITIALS, MATCH_INITIALS_CONTAIN, MATCH_INITIALS_STARTSWITH, MATCH_STARTSWITH, MATCH_SUBSTRING)
 
-LATEST_JSON = 'http://raine.github.io/ramda-json-docs/latest.json'
-DOCS_BASE_URL = 'http://ramdajs.com/docs/'
+LATEST_JSON = 'https://gist.githubusercontent.com/lilywang711/8449705fc664ae86e70d09295444a276/raw/86f8fcf21bdef4763828f75220072a1abe8f49ed/latest.json'
+DOCS_BASE_URL = 'http://ramda.cn/docs/'
 
 def unicodeize_arrow(s):
     return re.sub(r'->', u'→', s)
